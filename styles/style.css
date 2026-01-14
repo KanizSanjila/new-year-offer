@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.merriweather{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+*{
+    max-width: 1140px;
+    margin:  0 auto;
+    box-sizing: border-box;
+}
+
+.blod{
+    font-weight: bold;
+}
+
+header{
+    background-image: url('../images/Banner\ Image.png');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+.red{
+    color: #FF0000;
+}
+
+header p{
+    font-size: 2rem;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+/* off section style */
+
+.off{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.off h1{
+    font-size: 4.5rem;
+    margin-bottom: 40px;
+}
+
+.off h2{
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+.img-offer{
+    margin-top: 30px;
+}
+
+/* welcome section style */
+#welcome{
+    margin-top: 60px;
+    background-image: url('/images/Vectorrr.png');
+     height: 600px;
+     border-radius: 16px;
+     color: #FFFFFF;
+     padding: 100px 0px 0px 100px;
+    /* background-position: center; */
+    /* background-size: cover; */
+    box-sizing: border-box;
+}
+
+#welcome h1{
+    font-size: 3rem;
+    line-height: 80px;
+    letter-spacing: 11%;
+}
+
+#welcome p{
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+#welcome button{
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+ /* details section  style */
+ .details{
+    margin-top: 50px;
+    border-radius: 16px ;
+    background-color: rgb(221, 209, 218);
+    text-align: center;
+    padding: 80px 150px;
+ }
+
+ .detail{
+    font-size: 1.5rem;
+    font-weight: 600;
+ }
+
+ .detail p{
+      margin-bottom: 10px;
+ }
+
+ .details button{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 30px;
+ }
+
+ /* round section style */
+ .div{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+ }
+
+ .div p{
+     color: rgba(7, 2, 17, 0.6);
+ }
+
+ .text-1 p{
+    margin-top: 20px;
+ }
+
+ .div .round img{
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+   padding: 30px;
+ }
+
+ /* holiday section style */
+ .holiday{
+    margin-top: 100px;
+    text-align: center;
+ }
+
+ /* box container */
+ .box-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+ }
+
+ /* footer section style */
+ footer{
+   margin-top: 100px;
+   padding: 50px 0px;
+   max-width: 1600px;
+   border: 1px solid red;
+    background-color: #070211;
+    color: #FFFFFF;
+    height: 500px;
+ }
+
+ .address{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .address li{
+   list-style: none;
+
+ }
+
+ .address .address-text{
+   padding: 20px;
+ }
+
+ hr{
+    margin: 30px;
+ }
+
+ .icon{
+   padding: 20px;
+   text-align: center;
+padding-left: 20px;
+ }
+
+ .last-text{
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+
+
+
+
+
+
