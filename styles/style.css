@@ -15,9 +15,16 @@
 }
 
 *{
-    max-width: 1140px;
-    margin:  0 auto;
     box-sizing: border-box;
+}
+
+header , main {
+     max-width: 1140px;
+     margin:  0 auto;
+}
+
+footer{
+    width: 100%;
 }
 
 .blod{
@@ -159,10 +166,58 @@ header h1{
     text-align: center;
  }
 
+ .rectangle-2{
+    margin-bottom: -600px;
+ }
+
+ .Group-44{
+ }
+
  /* box container */
  .box-container{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+ }
+
+ .box-container img{
+    width: 100%;
+ }
+
+ /* subscribe section style */
+ .subscribe-container{
+    text-align: center;
+    margin: 90px 0px ;
+    padding: 50px;
+    background-color: rgba(255, 0, 0, 0.05);
+ }
+
+
+ .input{
+   border-radius: 50px;
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: fit-content;
+   overflow: hidden;
+   margin: auto;
+ }
+
+
+ .subscribe-container input{
+    width: 200px;
+     border: none;
+     padding: 20px;
+ }
+
+ .subscribe-container button{
+    width: 100px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px;
+
  }
 
  /* footer section style */
@@ -170,10 +225,13 @@ header h1{
    margin-top: 100px;
    padding: 50px 0px;
    max-width: 1600px;
-   border: 1px solid red;
     background-color: #070211;
     color: #FFFFFF;
     height: 500px;
+ }
+
+ .footer{
+    padding:0 50px;
  }
 
  .address{
@@ -196,6 +254,9 @@ header h1{
  }
 
  .icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
    padding: 20px;
    text-align: center;
 padding-left: 20px;
